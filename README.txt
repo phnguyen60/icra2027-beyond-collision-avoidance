@@ -2,20 +2,17 @@ ICRA 2027 workshop website — published static content
 
 Public address: https://icra2027.soft-aerial-robotics.com/
 
-Publish the contents of this directory at the GitHub Pages site root.
-Keep CNAME and .nojekyll at that root. Enable HTTPS in GitHub Pages after
-custom-domain verification and certificate provisioning succeed.
+Publish this directory at the GitHub Pages site root. Keep CNAME and
+.nojekyll at that root. Enable HTTPS after domain verification and
+certificate provisioning succeed.
 
-This directory contains deployment files only. The editable workshop data
-and source files remain in the original project workspace.
-
-To rebuild the original website, run from that workspace:
+The editable source remains in the original project workspace. To rebuild
+and refresh the deployment files, run there:
     python3 outputs/website/scripts/build.py
+    python3 outputs/website/scripts/prepare_github_pages.py
 
-Refresh this deployment package from outputs/website/dist using only the
-referenced assets. Retain the canonical/Open Graph metadata, CNAME,
-.nojekyll, and font licenses; the source build may still contain preview-only
-noindex metadata and unused historical images.
+The prep script copies reviewed assets, adds public URL metadata, and
+preserves Git metadata and unknown files. Keep the bundled font licenses.
+New asset filenames must first be added to the script's explicit allowlist.
 
-The workshop is proposed and pending acceptance. Keep its public status,
-confirmed contributors, provisional programme, and contribution dates current.
+Keep the proposed workshop status, contributors, programme, and dates current.
