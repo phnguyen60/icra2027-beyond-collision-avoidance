@@ -1,0 +1,451 @@
+{
+  "title": "Beyond Collision-Avoidance",
+  "subtitle": "Physical Intelligence for Contact-Rich Unmanned Aerial Vehicles",
+  "conference": "ICRA 2027",
+  "status": "Proposed workshop · pending acceptance",
+  "location": "Seoul, Republic of Korea",
+  "conferenceDates": "24–28 May 2027",
+  "workshopDate": "Workshop day not yet assigned",
+  "format": "Proposed full-day, in-person workshop",
+  "updated": "22 October 2026",
+  "contact": {
+    "name": "Wenlong Zhang",
+    "affiliation": "Arizona State University",
+    "email": "Wenlong.Zhang@asu.edu"
+  },
+  "overview": "Contact can be a capability. This proposed workshop brings together aerial robotics, planning, control, learning and contact mechanics to explore how UAVs can interact with their surroundings, remain stable through impacts and recover when contact is unexpected.",
+  "themes": [
+    {
+      "title": "Plan with contact",
+      "text": "Coupled flight and end-effector planning, contact-inclusive motion planning and learned policies for inspection, perching and aerial manipulation."
+    },
+    {
+      "title": "Regulate interaction",
+      "text": "Force and impedance control, contact sensing and estimation for stable, purposeful aerial interaction."
+    },
+    {
+      "title": "Recover from impact",
+      "text": "Collision detection, state estimation and resilient control when contact is unintended."
+    },
+    {
+      "title": "Learn across environments",
+      "text": "Reinforcement learning and sim-to-real transfer for changing surfaces, uncertain dynamics and contact transitions."
+    },
+    {
+      "title": "Design for physical intelligence",
+      "text": "Compliance, morphology and reconfiguration that expand what aerial planning and control can achieve."
+    },
+    {
+      "title": "Compare meaningful capabilities",
+      "text": "Shared tasks, metrics and evaluation practices for contact-aware UAVs and their real-world deployment."
+    }
+  ],
+  "programmeNote": "Draft programme. The named contributors have confirmed participation; talk titles are provisional. All times and room arrangements are subject to the conference allocation.",
+  "programme": [
+    {
+      "id": "morning",
+      "label": "Morning",
+      "title": "Contact-inclusive planning, control & learning",
+      "range": "08:30–12:30",
+      "rows": [
+        {
+          "time": "08:30–08:40",
+          "title": "Welcome & workshop questions",
+          "speaker": "Organizing team",
+          "kind": "Opening"
+        },
+        {
+          "time": "08:40–09:20",
+          "title": "Keynote 1",
+          "speaker": "Speaker to be announced",
+          "kind": "Keynote"
+        },
+        {
+          "time": "09:20–09:45",
+          "title": "Sensor-Based Robotics and Safe APhI",
+          "speaker": "Marco Tognon · Inria",
+          "kind": "Confirmed speaker"
+        },
+        {
+          "time": "09:45–10:10",
+          "title": "High-Performance Control Strategies for Collision Recovery",
+          "speaker": "Salua Hamaza · TU Delft",
+          "kind": "Confirmed speaker"
+        },
+        {
+          "time": "10:10–10:25",
+          "title": "Early-career lightning talks I",
+          "speaker": "Three selected contributions · 5 minutes each",
+          "kind": "Contributed"
+        },
+        {
+          "time": "10:25–10:30",
+          "title": "Transition to posters",
+          "speaker": "",
+          "kind": "Transition"
+        },
+        {
+          "time": "10:30–11:00",
+          "title": "Coffee, posters & static drone displays",
+          "speaker": "Meet the authors and explore the hardware",
+          "kind": "Break",
+          "break": true
+        },
+        {
+          "time": "11:00–11:25",
+          "title": "Invited talk 3",
+          "speaker": "Speaker to be announced",
+          "kind": "Invited"
+        },
+        {
+          "time": "11:25–11:50",
+          "title": "Invited talk 4",
+          "speaker": "Speaker to be announced",
+          "kind": "Invited"
+        },
+        {
+          "time": "11:50–12:15",
+          "title": "Invited talk 5",
+          "speaker": "Speaker to be announced",
+          "kind": "Invited"
+        },
+        {
+          "time": "12:15–12:30",
+          "title": "Moderated discussion",
+          "speaker": "Questions for the morning speakers",
+          "kind": "Discussion"
+        },
+        {
+          "time": "12:30–14:00",
+          "title": "Lunch, posters & static drone displays",
+          "speaker": "",
+          "kind": "Break",
+          "break": true
+        }
+      ]
+    },
+    {
+      "id": "afternoon",
+      "label": "Afternoon",
+      "title": "Contact-capable design & deployment",
+      "range": "14:00–18:00",
+      "rows": [
+        {
+          "time": "14:00–14:40",
+          "title": "Keynote 2",
+          "speaker": "Speaker to be announced",
+          "kind": "Keynote"
+        },
+        {
+          "time": "14:40–15:05",
+          "title": "Synergetic Morphologies and Aerial-Aquatic Resilience",
+          "speaker": "Steven Ceron · University of Michigan",
+          "kind": "Confirmed speaker"
+        },
+        {
+          "time": "15:05–15:30",
+          "title": "Designing for Contact: Bio-Inspired Robots that Perch and Cross Air and Water",
+          "speaker": "Raphael Zufferey · MIT",
+          "kind": "Confirmed speaker"
+        },
+        {
+          "time": "15:30–16:00",
+          "title": "Coffee, posters & static drone displays",
+          "speaker": "",
+          "kind": "Break",
+          "break": true
+        },
+        {
+          "time": "16:00–16:25",
+          "title": "Invited talk 8",
+          "speaker": "Speaker to be announced",
+          "kind": "Invited"
+        },
+        {
+          "time": "16:25–16:40",
+          "title": "Early-career lightning talks II",
+          "speaker": "Three selected contributions · 5 minutes each",
+          "kind": "Contributed"
+        },
+        {
+          "time": "16:40–17:00",
+          "title": "Industry spotlight: testing & measurement",
+          "speaker": "Ryan Young · HBK",
+          "kind": "Confirmed industry contributor"
+        },
+        {
+          "time": "17:00–17:45",
+          "title": "Grand panel: deploying contact-aware UAVs",
+          "speaker": "Audience questions, shared challenges and next steps",
+          "kind": "Discussion"
+        },
+        {
+          "time": "17:45–18:00",
+          "title": "Best poster recognition & closing",
+          "speaker": "Organizing team",
+          "kind": "Closing"
+        }
+      ]
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Marco Tognon",
+      "affiliation": "Inria",
+      "status": "Confirmed speaker",
+      "topic": "Sensor-based robotics and aerial physical interaction",
+      "portrait": "assets/portraits/marco-tognon.jpg",
+      "portraitSource": "https://marco-tognon-robotics.com/",
+      "url": "https://marco-tognon-robotics.com/"
+    },
+    {
+      "name": "Salua Hamaza",
+      "affiliation": "TU Delft",
+      "status": "Confirmed speaker",
+      "topic": "Aerial touch, tactile sensing and perching",
+      "portrait": "assets/portraits/salua-hamaza.jpg",
+      "portraitSource": "https://www.soft-aerial-robotics.com/"
+    },
+    {
+      "name": "Steven Ceron",
+      "affiliation": "University of Michigan",
+      "status": "Confirmed speaker",
+      "topic": "Soft-actuated microrobots and collective behavior",
+      "portrait": "assets/portraits/steven-ceron.webp",
+      "portraitSource": "https://robotics.umich.edu/people/faculty/steven-ceron/",
+      "url": "https://robotics.umich.edu/people/faculty/steven-ceron/"
+    },
+    {
+      "name": "Raphael Zufferey",
+      "affiliation": "MIT",
+      "status": "Confirmed speaker",
+      "topic": "Bio-inspired robots that perch and cross air and water",
+      "portrait": "assets/portraits/raphael-zufferey.jpg",
+      "portraitSource": "https://www.soft-aerial-robotics.com/",
+      "url": "https://aura.mit.edu/"
+    },
+    {
+      "name": "Ryan Young",
+      "affiliation": "HBK",
+      "status": "Confirmed industry contributor",
+      "topic": "Testing and measurement for contact-capable UAVs",
+      "portrait": "assets/portraits/ryan-young.png",
+      "portraitSource": "https://www.roboticssummit.com/event-speaker/ryan-young/",
+      "url": "https://www.roboticssummit.com/event-speaker/ryan-young/"
+    }
+  ],
+  "contributions": {
+    "status": "Call not yet open",
+    "description": "We plan to invite 2–4-page extended abstracts in IEEE format, with up to 30 posters and six lightning talks reserved for PhD students, postdocs and faculty within three years of their first independent appointment, with career breaks considered. Each submission is planned to receive two reviews. Industry and academic contributions are welcome.",
+    "submission": "The planned submission platform is OpenReview. A submission link and final instructions will be released after workshop acceptance.",
+    "dates": [
+      {
+        "label": "Extended abstracts",
+        "date": "15 March 2027"
+      },
+      {
+        "label": "Author notification",
+        "date": "10 April 2027"
+      },
+      {
+        "label": "Final abstracts",
+        "date": "1 May 2027"
+      }
+    ],
+    "datesNote": "Tentative dates, subject to the conference schedule and workshop acceptance.",
+    "publication": "Accepted contributions are intended for the workshop website, with author permission, and are separate from the IEEE proceedings. Any collective preprint or follow-up perspective will depend on author agreement and editorial feasibility."
+  },
+  "participation": [
+    {
+      "title": "Bring an idea",
+      "text": "Share early results, open problems or a reproducible evaluation task. After acceptance, organizers plan to assign mentors for early-career contributors and offer feedback through poster discussions."
+    },
+    {
+      "title": "Show the mechanism",
+      "text": "Authors may propose static displays and videos of contact-capable UAVs. Displays depend on space and organizer approval; no flight demonstrations are planned."
+    },
+    {
+      "title": "Shape the discussion",
+      "text": "Audience questions will inform the moderated discussion and closing panel. We aim to identify shared challenges and useful evaluation practices."
+    }
+  ],
+  "organizers": [
+    {
+      "name": "Wenlong Zhang",
+      "affiliation": "Arizona State University",
+      "country": "USA",
+      "role": "Primary contact"
+    },
+    {
+      "name": "Pakpong Chirarattananon",
+      "affiliation": "University of Toronto",
+      "country": "Canada"
+    },
+    {
+      "name": "Moju Zhao",
+      "affiliation": "University of Tokyo",
+      "country": "Japan"
+    },
+    {
+      "name": "Junyi Geng",
+      "affiliation": "Pennsylvania State University",
+      "country": "USA"
+    },
+    {
+      "name": "Karishma Patnaik",
+      "affiliation": "University of Michigan–Dearborn",
+      "country": "USA"
+    },
+    {
+      "name": "Mirko Kovac",
+      "affiliation": "Empa & EPFL",
+      "country": "Switzerland"
+    },
+    {
+      "name": "Pham Huy Nguyen",
+      "affiliation": "Empa & EPFL",
+      "country": "Switzerland"
+    },
+    {
+      "name": "Amirali Abazari",
+      "affiliation": "Arizona State University",
+      "country": "USA"
+    },
+    {
+      "name": "Valentin Gaucher",
+      "affiliation": "Arizona State University",
+      "country": "USA"
+    }
+  ],
+  "support": {
+    "name": "HBK",
+    "fullName": "Hottinger Brüel & Kjær",
+    "text": "HBK is a confirmed sponsor. The amount and use of support are being finalized. Ryan Young is confirmed for the industry spotlight; the talk title remains provisional.",
+    "logoSrc": "assets/logos/hbk.svg",
+    "logoAlt": "HBK — Hottinger Brüel & Kjær",
+    "url": "https://www.hbkworld.com/en"
+  },
+  "footerNote": "A workshop proposal for ICRA 2027. Workshop acceptance, the workshop date and venue arrangements are pending. Named contributors have confirmed participation; talk titles are provisional.",
+  "venue": "Coex Convention & Exhibition Center",
+  "hero": {
+    "src": "assets/contact-rich-uav-korean-background.png",
+    "alt": "Fine-ink illustration of eight aerial research robots perching, contacting overhead surfaces, rolling and manipulating a fixture among pale architectural terraces. Korean-inspired granite peaks, sculptural pines and a small tiled timber pavilion recede into the distance.",
+    "caption": "AI-generated conceptual illustration inspired by eight published research systems. Hardware details and relative scales are illustrative; these are not exact reconstructions or promised workshop demonstrations.",
+    "width": 1672,
+    "height": 941,
+    "credits": [
+      {
+        "name": "Fully actuated aerial vehicle for passively aligned surface contact",
+        "paper": "Passive Aligning Physical Interaction of Fully-Actuated Aerial Vehicles for Pushing Tasks",
+        "credit": "Tong Hui, Eugenio Cuniato, Michael Pantic, Marco Tognon, Matteo Fumagalli and Roland Siegwart, 2024.",
+        "sources": [
+          "https://arxiv.org/abs/2402.17434",
+          "https://backend.orbit.dtu.dk/ws/files/353058190/icra_final_asl.pdf"
+        ],
+        "shortName": "Surface interaction",
+        "marker": {
+          "x": 61,
+          "y": 51
+        }
+      },
+      {
+        "name": "Feely: aerial tactile perching with an anthropomorphic hand",
+        "paper": "Aerial tactile perching via an anthropomorphic hand with embodied soft tactile receptors",
+        "credit": "Anton Bredenbeck, Anish Jadoenathmisier and Salua Hamaza, npj Robotics 4 (2026), DOI 10.1038/s44182-026-00109-9.",
+        "sources": [
+          "https://www.nature.com/articles/s44182-026-00109-9",
+          "https://antbre.github.io/Projects/feely_the_drone.html"
+        ],
+        "shortName": "Feely",
+        "marker": {
+          "x": 86,
+          "y": 27
+        }
+      },
+      {
+        "name": "P-Flap perching ornithopter",
+        "paper": "How ornithopters can perch autonomously on a branch",
+        "credit": "Raphael Zufferey and coauthors; research photographs via MIT AURA lab, linked to Nature Communications 13, 7713 (2022).",
+        "sources": [
+          "https://aura.mit.edu/research/eflap.html",
+          "https://doi.org/10.1038/s41467-022-35356-5"
+        ],
+        "shortName": "P-Flap",
+        "marker": {
+          "x": 48,
+          "y": 26
+        }
+      },
+      {
+        "name": "SoBAR inflatable soft-bodied aerial robot with HFB grasper",
+        "paper": "A Soft-Bodied Aerial Robot for Collision Resilience and Contact-Reactive Perching",
+        "credit": "Pham H. Nguyen, Karishma Patnaik, Shatadal Mishra, Panagiotis Polygerinos and Wenlong Zhang, Soft Robotics 10(4), 2023, DOI 10.1089/soro.2022.0010.",
+        "sources": [
+          "https://doi.org/10.1089/soro.2022.0010",
+          "https://arxiv.org/abs/2204.13155"
+        ],
+        "shortName": "SoBAR",
+        "marker": {
+          "x": 51,
+          "y": 57
+        }
+      },
+      {
+        "name": "DRAGON",
+        "shortName": "DRAGON",
+        "paper": "Versatile articulated aerial robot DRAGON: Aerial manipulation and grasping by vectorable thrust control",
+        "credit": "Moju Zhao, Kei Okada and Masayuki Inaba, International Journal of Robotics Research 42(4–5), 214–248 (2023; online 2022).",
+        "sources": [
+          "https://doi.org/10.1177/02783649221112446",
+          "https://www.dragon.t.u-tokyo.ac.jp/publications/references/2023-ijrr-dragon-zhao/"
+        ],
+        "marker": {
+          "x": 12,
+          "y": 64
+        }
+      },
+      {
+        "name": "Quadrolltor",
+        "shortName": "Quadrolltor",
+        "paper": "Quadrolltor: A Reconfigurable Quadrotor with Controlled Rolling and Turning",
+        "credit": "Huaiyuan Jia, Runze Ding, Kaixu Dong, Songnan Bai and Pakpong Chirarattananon, IEEE Robotics and Automation Letters (2023), DOI 10.1109/LRA.2023.3279624.",
+        "sources": [
+          "https://doi.org/10.1109/LRA.2023.3279624",
+          "https://climb.mie.utoronto.ca/pdfs/jia2023quadrolltor.pdf"
+        ],
+        "marker": {
+          "x": 61,
+          "y": 72
+        }
+      },
+      {
+        "name": "Flying Hand",
+        "shortName": "Flying Hand",
+        "paper": "Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning",
+        "credit": "Guanqi He, Xiaofeng Guo, Luyi Tang, Yuanhang Zhang, Mohammadreza Mousaei, Jiahe Xu, Junyi Geng, Sebastian Scherer and Guanya Shi, Robotics: Science and Systems (2025).",
+        "sources": [
+          "https://ari-psu.github.io/flying_hand/",
+          "https://www.roboticsproceedings.org/rss21/p130.html"
+        ],
+        "marker": {
+          "x": 81,
+          "y": 84
+        }
+      },
+      {
+        "name": "Modular SoftFly",
+        "shortName": "Modular SoftFly",
+        "paper": "Modular and Scalable Fabrication of Insect-Scale Aerial Robots toward Demonstrating Swarm Flights",
+        "credit": "Yi-Hsuan Hsiao, Suhan Kim, Steven Ceron, Zhijian Ren and Yufeng Chen, Advanced Intelligent Systems 6(2), 2300059 (2024; online 2023).",
+        "sources": [
+          "https://doi.org/10.1002/aisy.202300059",
+          "https://samlab.robotics.umich.edu/publications"
+        ],
+        "marker": {
+          "x": 48,
+          "y": 92
+        }
+      }
+    ]
+  }
+}
